@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Libre+Baskerville&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    /* background-color: red; */
+    width: 20vw;
+    height: 120vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    background-color: gray;
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(202, 9, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 85px;
+    font-weight: bold;
+
+}
+
+.name {
+    font-size: 60px;
+    font-family: font-family 'Fira Sans', sans-serif;
+
+}
+
+.about {
+    font-size: 45px;
+}
+
+.moreabout {
+    font-size: 22px;
+    font-family: font-family 'Fira Sans', sans-serif;
+
+
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.sidebar nav li a {
+  text-decoration: none;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.devPic img {
+    width: 230px;
+    height: 58vh;
+}
